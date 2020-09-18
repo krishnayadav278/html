@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC</title>
+</head>
+<body>
+    <h1>Hello, Welcome to ABC Company</h1>
+    <div style="width:100%;">
+        <div style="float: left;"><h2>Search products in ABC : </h2></div>
+        <div style="margin-left: 13%;"><a href="https://www.google.com/" >
+            <img alt="ABC" src="https://talbertlawllc.com/wp-content/uploads/2020/03/abc-logo.jpg"
+            width="150" height="70">
+        </a></div>
+    </div>
+    <h2>Ordered list:</h2>
+    <ol>
+        <li>HP</li>
+        <li>DELL</li>
+        <li>LENOVO</li>
+    </ol>
+    <h2>Unordered list:</h2>
+    <ul>
+        <li>HP</li>
+        <li>DELL</li>
+        <li>LENOVO</li>
+    </ul>
+    <ul style = "list-style-type: square;">
+        <li>HP</li>
+        <li>DELL</li>
+        <li>LENOVO</li>
+    </ul>
+    <ul style = "list-style-type: circle;">
+        <li>HP</li>
+        <li>DELL</li>
+        <li>LENOVO</li>
+    </ul>
+    <h2>Table format:</h2>
+    <table style = "border-collapse: collapse; text-align: center;">
+        <tr style = "border:3px solid black; background-color: #0760fa;">
+            <th style = "border:3px solid black;">Firstname</th>
+            <th style = "border:3px solid black;">Lastname</th>
+            <th style = "border:3px solid black;">Age</th>
+        </tr>
+        <tr style = "border:3px solid black; background-color: #bbd2fa;">
+            <td style = "border:3px solid black;">Jill</td>
+            <td style = "border:3px solid black;">Smith</td>
+            <td style = "border:3px solid black;" rowspan="2">50</td>
+        </tr>
+        <tr style = "border:3px solid black; background-color: #bbd2fa;">
+            <td style = "border:3px solid black;" colspan="2">Eve Jackson</td>
+        </tr>
+      </table>
+      <h2>Radio buttons:</h2>
+      <form>
+        <p>Please select your age:</p>
+        <input type="radio" id="age1" name="age" value="30" checked="checked">
+        <label for="age1">0 - 30</label><br>
+        <input type="radio" id="age2" name="age" value="60">
+        <label for="age2">31 - 60</label><br>  
+        <input type="radio" id="age3" name="age" value="100">
+        <label for="age3">61 - 100</label><br><br>
+
+        <label for="country">Choose a country:</label>
+            <select id="country">
+            <option value="england">England</option>
+            <option value="india" selected>India</option>
+            <option value="australia">Australia</option>
+            </select><br><br>
+        <input type="submit" value="Submit">
+      </form>
+</body>
+</html>
